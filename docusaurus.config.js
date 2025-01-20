@@ -14,11 +14,8 @@ const config = {
 	tagline: "Simplifying e-ink display management.",
 	favicon: "img/favicon.ico",
 
-	// Set the production url of your site here
-	url: "https://your-docusaurus-site.example.com",
-	// Set the /<baseUrl>/ pathname under which your site is served
-	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/display-hub-e-ink-display-dashboard-docs/",
+	url: 'https://jcari-dev.github.io',
+	baseUrl: '/display-hub-e-ink-display-dashboard-docs/',
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
