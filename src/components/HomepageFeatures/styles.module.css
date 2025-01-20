@@ -1,0 +1,38 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+.techStack {
+  padding: 3rem 0;
+
+  text-align: center;
+}
+
+.module-images {
+  max-width: 770px;
+}
+
+
+.techStack img, .techStack svg {
+  width: 75px; 
+  height: 75px;
+  margin: 0 1rem;
+  object-fit: contain; 
+  background: #ffffff;
+  border-radius: 8px; 
+  padding: 5px;
+  transition: transform 0.2s ease;
+}
+
+.techStack img:hover, .techStack svg:hover {
+  transform: scale(1.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
