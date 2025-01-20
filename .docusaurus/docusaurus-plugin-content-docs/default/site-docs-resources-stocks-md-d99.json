@@ -1,0 +1,27 @@
+{
+  "id": "resources/stocks",
+  "title": "Supported Pi Models",
+  "description": "Here is the list of currently supported Raspberry Pi devices:",
+  "source": "@site/docs/resources/stocks.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/stocks",
+  "permalink": "/docs/resources/stocks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/resources/stocks.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/docs/category/resources"
+  },
+  "next": {
+    "title": "Supported Pi Models",
+    "permalink": "/docs/resources/traffic"
+  }
+}

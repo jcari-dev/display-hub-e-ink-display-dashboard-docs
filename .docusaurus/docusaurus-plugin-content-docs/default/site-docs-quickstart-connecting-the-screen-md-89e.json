@@ -1,0 +1,27 @@
+{
+  "id": "quickstart/connecting-the-screen",
+  "title": "Connecting the Screen",
+  "description": "To connect the e-Paper display to a Raspberry Pi, connect each pin on the display to the corresponding GPIO pin on the Raspberry Pi as shown in the table below:",
+  "source": "@site/docs/quickstart/connecting-the-screen.md",
+  "sourceDirName": "quickstart",
+  "slug": "/quickstart/connecting-the-screen",
+  "permalink": "/docs/quickstart/connecting-the-screen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/quickstart/connecting-the-screen.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Software Requirements",
+    "permalink": "/docs/quickstart/software-requirements"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/quickstart/installation"
+  }
+}

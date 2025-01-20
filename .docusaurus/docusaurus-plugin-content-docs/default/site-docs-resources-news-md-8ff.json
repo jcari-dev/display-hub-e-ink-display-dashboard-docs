@@ -1,0 +1,27 @@
+{
+  "id": "resources/news",
+  "title": "News Headlines",
+  "description": "Here's the list of the currently supported e-ink displays.",
+  "source": "@site/docs/resources/news.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/news",
+  "permalink": "/docs/resources/news",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/resources/news.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Weather Forecast",
+    "permalink": "/docs/resources/weather"
+  },
+  "next": {
+    "title": "Modules",
+    "permalink": "/docs/category/modules"
+  }
+}

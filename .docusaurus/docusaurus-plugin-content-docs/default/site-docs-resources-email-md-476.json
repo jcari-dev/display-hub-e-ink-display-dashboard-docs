@@ -1,0 +1,27 @@
+{
+  "id": "resources/email",
+  "title": "Email Alerts",
+  "description": "Here is the list of currently supported Raspberry Pi devices:",
+  "source": "@site/docs/resources/email.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/email",
+  "permalink": "/docs/resources/email",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/resources/email.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Supported Displays",
+    "permalink": "/docs/resources/supported-displays"
+  },
+  "next": {
+    "title": "Modules",
+    "permalink": "/docs/category/modules"
+  }
+}

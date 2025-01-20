@@ -1,0 +1,27 @@
+{
+  "id": "quickstart/installation",
+  "title": "Installation",
+  "description": "After ensuring the you meet both the hardware and software requirements and that your display is connected.",
+  "source": "@site/docs/quickstart/installation.md",
+  "sourceDirName": "quickstart",
+  "slug": "/quickstart/installation",
+  "permalink": "/docs/quickstart/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/quickstart/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connecting the Screen",
+    "permalink": "/docs/quickstart/connecting-the-screen"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/docs/category/resources"
+  }
+}

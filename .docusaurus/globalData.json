@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/email",
+              "path": "/docs/modules/email",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/news",
+              "path": "/docs/modules/news",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/stocks",
+              "path": "/docs/modules/stocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/traffic",
+              "path": "/docs/modules/traffic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/weather",
+              "path": "/docs/modules/weather",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/connecting-the-screen",
+              "path": "/docs/quickstart/connecting-the-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/hardware-requirements",
+              "path": "/docs/quickstart/hardware-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/installation",
+              "path": "/docs/quickstart/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/software-requirements",
+              "path": "/docs/quickstart/software-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/supported-displays",
+              "path": "/docs/resources/supported-displays",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/supported-pi-models",
+              "path": "/docs/resources/supported-pi-models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/quick-start",
+              "path": "/docs/category/quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/resources",
+              "path": "/docs/category/resources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/modules",
+              "path": "/docs/category/modules",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
