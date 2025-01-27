@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const FeatureList = [
 	{
@@ -80,7 +81,7 @@ export default function HomepageFeatures() {
 							rel="noopener noreferrer"
 						>
 							<img
-								src="/img/bottle.svg"
+								src={useBaseUrl("img/bottle.svg")}
 								alt="Bottle"
 								title="Bottle"
 							/>
@@ -91,9 +92,9 @@ export default function HomepageFeatures() {
 							rel="noopener noreferrer"
 						>
 							<img
-								src="/img/sqlalchemy.svg"
-								alt="SQLAlchemy"
-								title="SQLAlchemy"
+								src={useBaseUrl("img/sqlalchemy.svg")}
+								alt="Bottle"
+								title="Bottle"
 							/>
 						</a>
 						<svg
