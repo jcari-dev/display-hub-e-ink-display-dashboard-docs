@@ -110,21 +110,24 @@ const config = {
 						title: "Resources",
 						items: [
 							{
-								label: "Tutorials",
-								to: "/docs/intro",
+								label: "Overview",
+								to: "/docs/intro"
 							},
 							{
-								label: "Documentation",
-								to: "/docs/intro",
+								label: "Quick Start",
+								to: "/docs/category/quick-start"
 							},
-
 							{
 								label: "Supported Pi Models",
-								to: "https://example.com/devices",
+								to: "/docs/resources/supported-pi-models"
 							},
 							{
 								label: "Supported Displays",
-								to: "https://example.com/devices",
+								to: "/docs/resources/supported-displays"
+							},
+							{
+								label: "Data Reference",
+								to: "/docs/resources/data-reference"
 							},
 						],
 					},
@@ -140,15 +143,15 @@ const config = {
 								to: "https://discordapp.com/invite/docusaurus",
 							},
 							{
-								label: "Email Alerts",
-								to: "https://x.com/docusaurus",
-							},
-							{
 								label: "Traffic Incidents",
 								to: "https://x.com/docusaurus",
 							},
 							{
 								label: "Stocks Prices",
+								to: "https://x.com/docusaurus",
+							},
+							{
+								label: "Email Alerts",
 								to: "https://x.com/docusaurus",
 							},
 						],

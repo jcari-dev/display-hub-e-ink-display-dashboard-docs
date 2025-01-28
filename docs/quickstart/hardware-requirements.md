@@ -17,5 +17,5 @@ To use the `Display Hub`, ensure you have the following hardware:
 
 ---
 
-### 3. Secondary Device
-- A device with a desktop environment is required to access the web GUI.
+### 3. Secondary Device (Optional)
+- A device with a desktop environment is required to access the web GUI. _While this should still work on Raspberry Pi's with a desktop environment, it has not been tested._
