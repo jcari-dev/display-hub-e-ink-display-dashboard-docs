@@ -3,12 +3,16 @@ sidebar_position: 5
 ---
 
 # Email Alerts
+### 🚧 This Page is Under Construction! 🚧
 
-Here is the list of currently supported Raspberry Pi devices:
+I am currently working diligently to provide more details about email alerts. Stay tuned for updates!
 
-| **Model**                                                 | **Support Status**                                                        |
-|-----------------------------------------------------------|----------------------------------------------------------------------------|
-| [Pi 400](https://www.raspberrypi.com/products/raspberry-pi-400/)        | ✅ Fully Functional                                                       |
-| [Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) | ⚠️ Functional (installation can be lengthy- takes 5–8 minutes)          |
+The delay is due to the efforts to strike the right balance between security and convenience. While a beta demo is available on the development branch, it’s not quite ready for release yet.
 
-The Display Hub should technically work with other Raspberry Pi models, provided a compatible display is attached, but it has not been tested on devices beyond those listed above.
+🛠️ Current Progress:
+The following email clients are planned to be supported:
+
+- 📧 Gmail
+- 📧 Outlook
+
+**Thank you** for your patience! 🙏 Feel free to check back soon.

@@ -4,44 +4,40 @@ sidebar_position: 1
 
 # Overview
 
-Display Hub is a tool built using the following tech stack, with the purpose of facilitating the usage of e-ink displays. T
+![All Modules Sample](/img/all_modules_sample.jpg)
 
-## Getting Started
+**Display Hub** is an innovative e-ink display manager designed to simplify how we interact with e-ink screens. With a strong focus on **modularity** and **usability**, Display Hub empowers users to configure and display essential information effortlessly through an intuitive drag-and-drop web interface. It bridges the gap between the potential of **technology** and **everyday accessibility**, showcasing how complex systems can be made elegant and easy to use.
 
-Get started by **creating a new site**.
+## Key Features
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Modular Design**:  
+  Customize your e-ink display with these powerful modules:
+  - **Traffic Incidents**: Stay informed with live traffic updates using the [**TomTom Traffic API**](https://developer.tomtom.com/traffic-api/documentation).
+  - **News Headlines**: Get updates from outlets like [**The New York Times**](https://www.nytimes.com/) and [**El País**](https://elpais.com/), supporting news in both **English** and **Spanish**.
+  - **Stock Prices**: Track the latest stock prices and changes using [**yfinance**](https://pypi.org/project/yfinance/) (powered by Yahoo! Finance).
+  - **Weather Forecast**: Receive real-time weather updates via the [**Open-Meteo API**](https://open-meteo.com/).
+  - **Email Alerts** *(in progress)*: Soon to support notifications from [**Gmail**](https://mail.google.com/) and [**Outlook**](https://outlook.live.com/).
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **Web-Based GUI**:  
+  The **drag-and-drop web interface** makes configuring and managing modules effortless, even for those without technical expertise.
 
-## Generate a new site
+- **Real-Time Updates**:  
+  Modules pull **live data** from external APIs, ensuring the information displayed is always fresh and accurate.
 
-Generate a new Docusaurus site using the **classic template**.
+- **One-Click Installation**:  
+  With a simple **one-command setup**, even first-time users can get started in minutes.
 
-The classic template will automatically be added to your project after you run the command:
+- **Cross-Language Support**:  
+  The News module currently supports **English** and **Spanish**, with plans to expand to other languages in the future.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **Runs on Raspberry Pi**:  
+  Designed to work seamlessly on **Raspberry Pi devices**, Display Hub is lightweight and energy-efficient, making it perfect for home projects.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Purpose
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+E-ink displays are **incredible pieces of technology** that are sleek, energy-efficient, and versatile. Yet, they’re often underutilized because of the complexity involved in setting them up. With **Display Hub**, my goal was to break down those barriers. By creating a tool that is not only functional but also **user-friendly** and **accessible**, I want to empower users to unlock the full potential of their e-ink screens.
 
-## Start your site
+This project is about more than just showcasing technical skills. It's about proving that even **complex technologies** can be simplified, inspiring more people to explore and enjoy the possibilities of e-ink displays. Whether you're tracking weather, monitoring stocks, or reading news, Display Hub makes it possible with just a few clicks.  
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Thank you for exploring Display Hub. I hope it sparks as much joy for you as it has for me while building it!

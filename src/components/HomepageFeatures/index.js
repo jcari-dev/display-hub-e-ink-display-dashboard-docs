@@ -60,10 +60,10 @@ export default function HomepageFeatures() {
 					</div>
 				</div>
 			</section>
-			<section className={styles.techStack}>
+			<section className={styles.techStack} style={{paddingTop: "0px" }}>
 				<div className="container text--center">
 					<h1
-						style={{ fontSize: "28px", fontWeight: "bold", margin: "20px 0" }}
+						style={{ fontSize: "28px", fontWeight: "bold", margin: "20px 0"}}
 					>
 						Powered by Reliable and Efficient Technology
 					</h1>

@@ -4,19 +4,21 @@ sidebar_position: 4
 
 # Traffic Incidents
 
-<img src="https://jcari-dev.github.io/display-hub-e-ink-display-dashboard-docs/img/traffic_module_sample.jpg" alt="Description" class="module-images" />
+![News Headlines Module](https://jcari-dev.github.io/display-hub-e-ink-display-dashboard-docs/img/traffic_module_sample.jpg)
 
 
-<p style={{ textAlign: 'right', fontStyle: 'italic' }}>Weather Forecast module displaying the current temperature and weather condition.</p>
+<p style={{ textAlign: 'right', fontStyle: 'italic' }}>Traffic Incidents module displaying a traffic event near the 02131 zipcode.</p>
 
 ### Overview
 
-The Weather Forecast module provides real-time weather updates for a specified location using the <br /> [Open-Meteo Current Weather API](https://open-meteo.com/). **Note:** Only US ZIP codes are supported. The module's display is a compact **1x1 square**:
+The Traffic Incidents module it is by far the most complex module. It provides real-time traffic updates for a specified location using the [TomTom Traffic API](https://www.tomtom.com/products/traffic-apis/). The module's display is a **1x3 rectangle**.
+
+**Note:** Only US ZIP codes are supported as of now. 
 
 ----
 
 ### Web GUI View
-![Weather Forecast Module](/img/weather_module.png)
+![Weather Forecast Module](/img/traffic_module.png)
 
 ----
 
@@ -24,22 +26,41 @@ The Weather Forecast module provides real-time weather updates for a specified l
 
 
 The module presents the following details:  
-- **Current Temperature**: Displays the temperature with the selected unit (°F or °C).  
-- **Weather Description**: Provides a human-readable condition, such as "Clear Sky" or "Overcast."
+ - **Traffic Event**: Example: "Heavy Traffic Near" (the word "Near" indicates an approximate location).
+   - This is a list of all the following traffic events:
+     - Accident
+     - Fog
+     - Hazardous Road
+     - Rain
+     - Ice
+     - Jam
+     - Lane Closed
+     - Road Closed
+     - Road Works
+     - Narrow Lanes
+     - Tow Trucks
+     - Other
+
+ - **Street Address**: Example: 520 South St.
+ - **City, State, Zipcode**: Example: Roslindale, MA 02131.
 
 ----
 
 ### Usage
 
-1. Click the "**Select a Module:**" dropdown at the top of the web GUI and select the "**Weather**" module.
+1. Click the "**Select a Module:**" dropdown at the top of the web GUI and select the "**Traffic**" module.
 2. Click the green "**Add Module**" button to the right of the dropdown.
 3. Drag and drop the module to your desired position within the grid.
 4. Enter a valid US ZIP code in the **"Enter a ZIP Code"** field.  
-5. Choose a temperature scale: °F, °C, or °K.  
-6. Select a timezone. Leaving this as "Not Set" may prevent Open-Meteo's API from detecting the correct timezone.  
-7. Click **"Save Weather Settings"**:  
+5. Click **"Save Weather Settings"**:  
    - A green confirmation message will appear if the settings are saved successfully.  
-   - A red error message will indicate a failure.  
+   - A red error message will indicate a failure. 
+6. Click the **"Generate API File"** button and follow the instructions:
+ ![Generate API File Traffic Module](/img/traffic_module_generate_api_file.png)
+
+7. Click the **"Consume API File"** button and follow the instructions:
+ ![Generate API File Traffic Module](/img/traffic_module_consumed_api_file.png)
+
 8. Click **"Update Display"**:  
    - The screen will blink (indicating a cleaning sequence) and display the updated configuration.
 
@@ -47,28 +68,26 @@ The module presents the following details:
 
 ### Workflow
 
-The Weather Forecast module retrieves real-time weather data based on user settings stored in the database, including ZIP code and preferred temperature scale.  
+The Traffic Incidents module retrieves real-time traffic data based on user settings stored in the database.
 
 1. **Retrieve Settings**:  
-   The module pulls the selected zipcode and preferred temperature scale settings from the database.  
+   The module pulls the user’s API key and selected ZIP code from the database (`TrafficSettings` table).  
 
 2. **ZIP Code Conversion**:  
-   The module converts the ZIP code to latitude and longitude using a local dataset (`US.txt`).  
+   The ZIP code is converted into latitude and longitude coordinates using a local dataset (`US.txt`).  
 
-3. **API Request**:  
-   It queries the Open-Meteo API with the derived coordinates and user preferences, such as temperature scale.  
+3. **Define Bounding Box**:  
+   A small bounding box around the derived coordinates is calculated to narrow the area for traffic incident queries.  
 
-4. **Response Handling**:  
-   The API's response is parsed to extract the temperature and weather conditions for display.  
+4. **API Request**:  
+   The TomTom API is queried with the bounding box, filtering incidents based on specific categories such as accidents, road closures, or heavy traffic.  
 
-----
+5. **Response Handling**:  
+   The API's response is processed to extract incident details, including category and coordinates.  
 
-### Open-Meteo API Parameters
+6. **Reverse Geocoding**:  
+   Incident coordinates are reverse-geocoded to obtain human-readable addresses.  
 
-| Parameter          | Description                                      |
-|--------------------|--------------------------------------------------|
-| `latitude`         | Latitude from ZIP-to-coordinate conversion.      |
-| `longitude`        | Longitude from ZIP-to-coordinate conversion.     |
-| `current_weather`  | Retrieves current weather data (always `True`).  |
-| `temperature_unit` | User-selected temperature scale (`°F`, `°C`, or `°K`). |
-| `timezone`         | Automatically detected if not explicitly set.    |
+7. **Address Formatting**:  
+   Addresses are abbreviated for better readability, and incidents are compiled into a list for display.
+     - As of now only one which is randomly selected is used for the screen.

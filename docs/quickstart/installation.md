@@ -17,8 +17,15 @@ Please note When the installation is successful you should see the following mes
 
 ![Select SPI](/img/installation_complete.png)
 
+
 **Note:** There's currently not a hostname setup for the forwarding address, so as highlighted on the image, the address to access the web GUI will be the local IP address of the device.
 
-For **troubleshooting** please refer to the troubleshooting installation page [here](/docs/quickstart/hardware-requirements).
+
+Upon accessing the provided URL, you will be redirected to the homepage:
+
+![Homepage](/img/installation_complete_homepage.png)
+
+
+For **troubleshooting** please refer to the troubleshooting installation page [here](/docs/resources/troubleshooting).
 
 

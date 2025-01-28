@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Weather Forecast
 
-<img src="https://jcari-dev.github.io/display-hub-e-ink-display-dashboard-docs/img/weather_module_sample.jpg" alt="Description" class="module-images" />
+![News Headlines Module](https://jcari-dev.github.io/display-hub-e-ink-display-dashboard-docs/img/weather_module_sample.jpg)
 
 
 <p style={{ textAlign: 'right', fontStyle: 'italic' }}>Weather Forecast module displaying the current temperature and weather condition.</p>
@@ -50,7 +50,7 @@ The module presents the following details:
 The Weather Forecast module retrieves real-time weather data based on user settings stored in the database, including ZIP code and preferred temperature scale.  
 
 1. **Retrieve Settings**:  
-   The module pulls the selected zipcode and preferred temperature scale settings from the database.  
+   The module pulls the selected zipcode and preferred temperature scale settings from the database (`WeatherSettings` table).
 
 2. **ZIP Code Conversion**:  
    The module converts the ZIP code to latitude and longitude using a local dataset (`US.txt`).  

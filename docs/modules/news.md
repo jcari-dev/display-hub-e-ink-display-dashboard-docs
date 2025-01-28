@@ -46,7 +46,7 @@ The module presents the following details:
 ### Workflow
 
 1. **Retrieve Settings**:  
-   The module pulls the selected language, news outlet, and RSS feed settings from the database.  
+   The module pulls the selected language, news outlet, and RSS feed settings from the database (`NewsSettings` table). 
 
 2. **Fetch RSS Feed**:  
    It accesses the chosen RSS feed using the saved settings.  

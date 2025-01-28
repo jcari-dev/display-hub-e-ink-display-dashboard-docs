@@ -4,14 +4,14 @@ sidebar_position: 4
 
 # Stock Prices
 
-<img src="https://jcari-dev.github.io/display-hub-e-ink-display-dashboard-docs/img/stocks_module_sample.jpg" alt="Description" class="module-images" />
+![News Headlines Module](https://jcari-dev.github.io/display-hub-e-ink-display-dashboard-docs/img/stocks_module_sample.jpg)
 
 
 <p style={{ textAlign: 'right', fontStyle: 'italic' }}>Stock Prices module displaying the current Nvidia (NVDA) stock price and the change (%) since previous close.</p>
 
 ### Overview
 
-The Stock Prices module displays information about the selected ticket (stock). The module's display is a compact 1x1 square:
+The Stock Prices module displays information about the selected ticket (stock). The module's display is a compact **1x1 square**:
 
 ----
 ### Web GUI View
@@ -48,7 +48,7 @@ The module presents the following information:
 The Stock Prices module retrieves real-time financial data based on user settings stored in the database, such as ticker of choice.  
 
 1. **Retrieve Settings**:  
-   The module pulls the ticker of choice from the database.  
+   The module pulls the ticker of choice from the database (`StockSettings` table).
 
 2. **API Request**:  
    Through `yfinance` a request is made to get information about the stock.    
