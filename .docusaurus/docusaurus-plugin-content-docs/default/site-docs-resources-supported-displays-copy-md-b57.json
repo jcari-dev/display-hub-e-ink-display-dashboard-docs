@@ -1,0 +1,27 @@
+{
+  "id": "resources/supported-displays copy",
+  "title": "Supported Displays",
+  "description": "Here's the list of the currently supported e-ink displays.",
+  "source": "@site/docs/resources/supported-displays copy.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/supported-displays copy",
+  "permalink": "/display-hub-e-ink-display-dashboard-docs/docs/resources/supported-displays copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/resources/supported-displays copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Supported Pi Models",
+    "permalink": "/display-hub-e-ink-display-dashboard-docs/docs/resources/supported-pi-models"
+  },
+  "next": {
+    "title": "Supported Displays",
+    "permalink": "/display-hub-e-ink-display-dashboard-docs/docs/resources/supported-displays"
+  }
+}

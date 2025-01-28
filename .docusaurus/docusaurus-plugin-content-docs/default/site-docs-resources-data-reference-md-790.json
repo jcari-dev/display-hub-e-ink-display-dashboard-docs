@@ -1,0 +1,27 @@
+{
+  "id": "resources/data-reference",
+  "title": "Data Reference",
+  "description": "Below are the data sources used for each module:",
+  "source": "@site/docs/resources/data-reference.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/data-reference",
+  "permalink": "/display-hub-e-ink-display-dashboard-docs/docs/resources/data-reference",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/resources/data-reference.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Supported Displays",
+    "permalink": "/display-hub-e-ink-display-dashboard-docs/docs/resources/supported-displays"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/display-hub-e-ink-display-dashboard-docs/docs/resources/troubleshooting"
+  }
+}
