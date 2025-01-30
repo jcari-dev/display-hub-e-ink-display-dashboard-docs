@@ -1,0 +1,47 @@
+---
+title: FAQs
+---
+
+# Frequently Asked Questions (FAQs)
+
+## Data
+
+**Is any of this data being collected and sent anywhere?**  
+It is not collected by me and all form inputs are stored locally (like, in your Raspberry Pi). However, this does not mean that the services providing the APIs do not collect information about what is being queried or requested.  
+
+For more information, please refer to their respective privacy policies:  
+
+- [Open Meteo - Terms and Privacy Policy](https://open-meteo.com/en/terms)  
+- [TomTom - Privacy Policy](https://www.tomtom.com/privacy/en_gb/)  
+- [Yahoo - Privacy Policy](https://legal.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.html)  
+- [El País - Legal Notice](https://elpais.com/info/aviso-legal/)  
+- [The New York Times - Privacy Policy](https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy)  
+
+---
+
+## Modules
+
+### Weather Module
+**Can I set up multiple locations?**  
+No, currently it only supports one location. In a future update, multiple ZIP codes (as it is based on ZIP codes) will be allowed.
+
+---
+
+### News Module
+**Can I adjust the number of news headlines displayed at a time?**  
+No, currently only one news headline is displayed per refresh cycle.
+
+---
+
+### Traffic Module
+**Can the Traffic module notify me of upcoming delays or alternate routes?**  
+It can inform about _current_ delays, but not about upcoming or alternate routes. For a detailed list of the different statuses it can display, please refer [here](http://localhost:3000/display-hub-e-ink-display-dashboard-docs/docs/modules/traffic#information-displayed).
+
+---
+
+## Hardware
+
+
+### Displays
+**Can I just use any e-ink display that I have around?**  
+The project leverages existing classes and methods from Waveshare, particularly the `draw on screen` function, to create the output as intended. While technically you can use any Waveshare-compatible e-ink display, the results may not align perfectly with the intended design.

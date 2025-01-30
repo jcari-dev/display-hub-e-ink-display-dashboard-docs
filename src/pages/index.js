@@ -30,8 +30,8 @@ function HomepageHeader() {
 				</div>
 				<div class="home-video" style={{marginTop: "15px"}}>
 				<iframe
-						width="560"
-						height="315"
+						width="768"
+						height="432"
 						src="https://www.youtube.com/embed/VIDEO_ID"
 						title="YouTube video player"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
