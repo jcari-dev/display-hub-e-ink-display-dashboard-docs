@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/display-hub-e-ink-display-dashboard-docs/faqs",
+  "source": "@site/src/pages/faqs.mdx",
+  "title": "FAQs",
+  "description": "Data",
+  "frontMatter": {
+    "title": "FAQs"
+  },
+  "unlisted": false
+}
