@@ -169,7 +169,7 @@ const config = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} Jorge Caridad. Built with ❤️ & Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Jorge Caridad. Docs were written with ❤️ and by me. Powered by Docusaurus.`,
 		},
 		prism: {
 			theme: prismThemes.github,
