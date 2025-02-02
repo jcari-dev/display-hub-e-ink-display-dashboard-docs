@@ -41,11 +41,6 @@ const config = {
 	],
 
 	themeConfig: {
-		colorMode: {
-			defaultMode: "dark",
-			disableSwitch: false,
-			respectPrefersColorScheme: false,
-		},
 		navbar: {
 			title: "Display Hub",
 			logo: {
