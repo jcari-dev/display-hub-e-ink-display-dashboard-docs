@@ -10,7 +10,8 @@ const config = {
 	baseUrl: "/display-hub-e-ink-display-dashboard-docs/",
 
 	organizationName: "jcari-dev",
-	projectName: "display-hub",
+	projectName: "display-hub-e-ink-display-dashboard-docs",
+	deploymentBranch: "gh-pages",
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
